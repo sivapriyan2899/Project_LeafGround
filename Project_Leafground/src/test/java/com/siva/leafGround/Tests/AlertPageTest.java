@@ -18,7 +18,7 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentEmailReporter;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.siva.leafGround.Pages.AlertPage;
-import com.siva.leafGround.Pages.InitializeBrowser;
+import com.siva.leafGround.Utilities.InitializeBrowser;
 
 
 public class AlertPageTest {
@@ -59,7 +59,7 @@ public class AlertPageTest {
 		extentReport.attachReporter(sparkReport);
 		
 		
-		driver = InitializeBrowser.chromeBrowser();
+		driver = InitializeBrowser.configRead();
 		String url ="https://leafground.com/alert.xhtml;jsessionid=node0qo3nh9g1hog612ch2drsbxu353858683.node0";
 		driver.get(url);
 		return driver;

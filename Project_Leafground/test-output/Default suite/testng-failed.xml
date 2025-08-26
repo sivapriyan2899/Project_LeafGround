@@ -5,8 +5,15 @@
     <classes>
       <class name="com.siva.leafGround.Tests.AlertPageTest">
         <methods>
+          <include name="testCase01_1_alertSimpleDialog"/>
           <include name="initElements"/>
+          <include name="testCase03_1_alertConfirmationDialog"/>
+          <include name="closeBrowser"/>
+          <include name="testCase01_3_alertSimpleDialog"/>
           <include name="testCase03_2_alertConfirmationDialog"/>
+          <include name="testCase01_2_alertSimpleDialog"/>
+          <include name="testCase02_1_alertPromptDialog"/>
+          <include name="testCase02_2_alertPromptDialog"/>
           <include name="navigateToAlertPage"/>
         </methods>
       </class> <!-- com.siva.leafGround.Tests.AlertPageTest -->
