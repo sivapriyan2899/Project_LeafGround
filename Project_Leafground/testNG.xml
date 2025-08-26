@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="testSuite_AlertPage">
+	<test name="test_AlertPage">
+		<classes>
+			<class name="com.siva.leafGround.Tests.AlertPageTest"> </class>
+		</classes>
+
+	</test>
+
+</suite>
