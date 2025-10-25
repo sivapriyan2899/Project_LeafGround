@@ -7,8 +7,8 @@
         <methods>
           <include name="testCase01_1_alertSimpleDialog"/>
           <include name="initElements"/>
-          <include name="testCase03_1_alertConfirmationDialog"/>
           <include name="closeBrowser"/>
+          <include name="testCase03_1_alertConfirmationDialog"/>
           <include name="testCase03_2_alertConfirmationDialog"/>
           <include name="testCase01_3_alertSimpleDialog"/>
           <include name="testCase01_2_alertSimpleDialog"/>
